@@ -1,0 +1,26 @@
+{
+    "name": "kocal/ux-toolkit-acme",
+    "autoload": {
+        "psr-4": {
+            "Kocal\\UxToolkitAcme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hugo Alliaume",
+            "email": "hugo@alliau.me"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../workspace-os/symfony-ux/src/Toolkit",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "symfony/ux-toolkit": "2.x-dev"
+    }
+}

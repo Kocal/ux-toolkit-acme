@@ -1,0 +1,6 @@
+{
+    "name": "Shadcn",
+    "licenses": ["MIT"],
+    "homepage": "https://ux.symfony.com/components",
+    "authors": ["Shadcn", "Symfony Community"]
+}
