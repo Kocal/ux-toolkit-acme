@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04d07f7b3702d17116c1430794a18ce3",
-    "packages": [
+    "content-hash": "0ff2907b6370114cb6ae656e9c48d66a",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "psr/cache",
             "version": "3.0.0",
@@ -2559,7 +2560,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../workspace-os/symfony-ux/src/Toolkit",
-                "reference": "572b6489bb13bb1de4c8fef1463fb68a7e757a79"
+                "reference": "442438fb1ab687008d4f097c22b8e2e066dc9651"
             },
             "require": {
                 "php": ">=8.3",
@@ -2585,8 +2586,9 @@
                 "zenstruck/console-test": "^1.7"
             },
             "bin": [
-                "bin/ux-toolkit-theme-lint",
-                "bin/ux-toolkit-theme-debug"
+                "bin/ux-toolkit-kit-create",
+                "bin/ux-toolkit-kit-lint",
+                "bin/ux-toolkit-kit-debug"
             ],
             "type": "symfony-bundle",
             "extra": {
@@ -3033,7 +3035,6 @@
             "time": "2025-02-13T08:34:43+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {

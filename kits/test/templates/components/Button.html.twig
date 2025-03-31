@@ -1,0 +1,16 @@
+{% props type = 'button', variant = 'default' %}
+{%- set style = html_cva(
+    base: 'inline-flex items-center',
+    variants: {
+        variant: {
+            default: "bg-primary text-primary-foreground hover:bg-primary/90",
+            secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+        },
+    },
+) -%}
+
+<button class="{{ style.apply({ variant }, attributes.render('class'))|tailwind_merge }}"
+    {{ attributes.defaults({}).without('class') }}
+>
+    {%- block content %}{% endblock -%}
+</button>

@@ -20,7 +20,7 @@
             }
         }
     ],
-    "require": {
+    "require-dev": {
         "symfony/ux-toolkit": "2.x-dev"
     }
 }
