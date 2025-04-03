@@ -1,0 +1,8 @@
+{
+    "name": "ux-toolkit-acme",
+    "homepage": "https://hugo.alliau.me",
+    "authors": [
+        "Hugo Alliaume <hugo@alliau.me>"
+    ],
+    "license": "MIT"
+}
